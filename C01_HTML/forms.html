@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in Html</title>
+</head>
+<body>
+<form action="/action">
+<label for="username">Username  :</label>
+<input type="username" placeholder="Enter your Username" id="username" name="ajuuDon">
+<!-- file:///E:/action?ajuuDon=sejalsinghthakur   NAME ATTRIBUTE HAS MENTIONED THE THE TYPED USERNAME IN URL  -->
+<div>
+<label for="password">Password  :</label>
+<input type="password" placeholder="Type abc" id="password" name="cuteeeee">
+<!-- file:///E:/action?ajuuDon=sejalsinghthakur&cuteeeee=sejalcute  NAME ATTRIBUTE HAS MENTIONED THE THE TYPED USERNAME+ PASSWORD IN URL   -->
+</div>
+<div>
+<label for="Age">Age  :</label>
+<input type=  "age" placeholder="Enter your age" id="Age">
+</div>
+<button>Submit</button>
+<!-- <button type="submit">seju</button>
+<button type="button">hii</button>
+<button type="reset">hello</button> -->
+<!-- <br> -->
+<!-- <input type="button" value="click me"> -->
+<!-- <div>
+Date:
+<input type="date">
+</div>
+<div>
+Number:
+<input type="number">
+</div>
+<div>
+Color:
+<input type="color">
+</div> -->
+</form>
+<hr>
+<form action="https://www.youtube.com/results">
+<!-- <label for="search">Search </label> -->
+<caption>YouTube</caption>
+<input type="text" name="search_query" id="search" &#12826;>
+<button>Search</button>
+</form>
+<hr>
+<div>
+    <form action="https://www.google.com/search">  
+    <caption>Google</caption>
+    <input type="search" 
+    id="search" 
+    name="q" 
+    placeholder="Search...">
+    <button>Search</button>
+    </form>
+</div>
+<br>
+<hr>
+<div>
+<form action="/server">
+    <input type="checkbox" name="Course" id="completed" checked>
+    <label for="completed">Course</label>
+</form>
+<br> 
+<hr>
+<form action="/server">
+    <input type="radio" name="gender" id="Male" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Female" value="Female">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Other" value="Other">
+    <label for="Other">Other</label>
+    <button>Submit</button>
+</form>
+<hr>
+
+<div>
+    Choose the subject
+    <form action="/server">
+    <select name="Subjects" id="Subjects">
+        <option value=>Select your option</option>
+        <option value="Maths">Maths</option>
+        <option value="Science">Science</option>
+        <option value="Computer">Computer</option>
+    </select>
+    <button>Submit</button>
+    </form>
+</div>
+<hr>
+<br>
+<div>
+    <form action="/server">
+    <label for="vol">Volume:</label>
+    <input type="range" min="0" max="100" name="Volume" id="vol">
+    <button>Submit</button>
+    <br>
+    <hr>
+    <label for="feedback"></label>
+    <textarea name="feedback" id="feedback"></textarea>
+    <button>Submit</button>
+    </form>
+</div>
+
+</body>
+</html>

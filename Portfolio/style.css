@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#Container{
+    height: 400px;
+    width: 400px;
+    /* display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* flex-wrap: wrap;
+    align-items: base; */ }
+@keyframes Animation{
+    from{width: 30px;
+    background-color: brown};
+    to{
+        width: 80px;
+        background-color: blue;
+    }
+
+}
+#Box1{
+    background-color: blanchedalmond;
+    animation: widthanimate 3s ease-in os infinite normal;
+    
+}
+#Box2{
+    background-color: aqua ;
+    height: 150px;
+}
+#Box3{
+    background-color: blueviolet ;
+}
+#Box4{
+    background-color: blue ;
+    height: 80px;
+}
+#Box5{
+    background-color: brown ;
+}

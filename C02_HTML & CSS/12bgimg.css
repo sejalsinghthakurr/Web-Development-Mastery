@@ -1,0 +1,29 @@
+/* div{
+    height: 400px;
+    width: 800px;
+    margin: 10px auto;
+    background-color: green;
+    background-image:url(backgroundimagecss.jpg);
+    background-size:  cover;
+} */
+ .card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 1s;
+    padding-left: 10px;
+   }
+   desc{
+    padding:  0 5px 0 2px  ;
+   }
+ img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+   }
+   .card:hover{
+    box-shadow:0 10px 20px red ;
+   }

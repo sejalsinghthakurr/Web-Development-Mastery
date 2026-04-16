@@ -1,0 +1,93 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque
+}
+/* h3{
+    color: purple;
+}  */
+h1, h3{
+
+    color: #b92b27;
+}
+/* ID SELECTOR */
+#login{
+    background-color: aqua;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: chocolate;
+}
+/* DECENDENT SELECTORS */
+p a{
+    color: darkcyan;
+    background-color: yellowgreen;
+}
+p + h3{
+    text-decoration:underline ;
+}
+.upvote + button{
+    background-color: aquamarine;
+    color: blue;
+}
+/* CHILD COMBINATOR */
+div > input{
+    color: blue;
+    background-color: blue;
+}
+/* ATTRIBUTE SELECTORS */
+input[type="text"]{
+   background-color: #b92b27; 
+   /* color: green; */
+}
+input[type="password"]{
+    background-color: rgb(17, 3, 118);
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+#myID{
+  color: blueviolet;  
+  background-color:green;
+}
+/* PSEUDO CLASS */
+button:hover{
+    background-color: chartreuse;
+    color: blue;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    color: plum;
+    background-color: hotpink;
+}
+p:active {
+    font-weight: bold;
+    color: rgb(255, 0, 191);
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+div:nth-of-type(1n){
+    background-color: red
+}
+.post:nth-of-type(1n){
+    background-color: red
+}
+h1:first-letter{
+    color: rgb(184, 158, 158);
+}
+/* p::first-line {
+    color: rgb(255, 0, 8);
+} */
+p::selection {
+    background-color: rgb(146, 248, 91);
+}
+/* h3{
+    background-color: #fff97f !important;
+} */

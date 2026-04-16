@@ -1,0 +1,31 @@
+/* h1{
+    border: 2px solid black;
+    width: 50%;
+} */
+/* #outer{
+    height: 500px;
+    width: 500px;
+    border: 2px;
+    background-color: gold;
+    font-size: 20px;
+}
+#inner{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    font-size: 3em;
+    padding: 1em;
+}
+button{
+    font-size: 20px;
+    border-radius: 20px;
+    background-origin: 7px solid purple;
+    padding-left: 1em;
+    padding-right: 1em;
+} */
+section{
+    font-size:15px ;
+}
+div{
+    font-size: 4rem;
+}

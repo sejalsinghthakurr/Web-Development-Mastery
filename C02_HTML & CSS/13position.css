@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#Static{
+    background-color: chartreuse;
+    position: static;
+    top: 100px;
+    bottom: 100px;
+}
+#Relative{
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px; /*THIS IS CALLED OFFSET*/
+}
+#Absolute{
+    background-color: brown;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#Fixed{
+    background-color: darkgreen;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
